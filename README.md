@@ -7,7 +7,7 @@ in increasing an online store's revenue and conversion rate.
 The goal was to determine which variant leads to better user
 behavior without negatively affecting order value.
 
-## Technologies Used:
+### Technologies Used:
 
 - Pandas (data manipulation)
 - 
@@ -19,14 +19,14 @@ behavior without negatively affecting order value.
 - 
 - SciPy / Statsmodels (statistical testing - Z-test)
 
-## Dataset:
+### Dataset:
 
 Includes user orders, conversion events, order values, and
 variant group assignments (A/B). Outliers were filtered using
 95th and 99th percentiles to ensure analysis reflects typical
 user behavior.
 
-## Methodology:
+### Methodology:
 
 1. Hypothesis Prioritization:
    
@@ -47,14 +47,14 @@ user behavior.
    Conversion rates between groups were tested for statistical
    significance on both raw and cleaned data.
 
-## Key Insights:
+### Key Insights:
 
 - Variant B shows a clear improvement in conversion rates.
 - Increase in conversion does NOT negatively affect average
   order value.
 - Results are consistent and statistically significant.
 
-## Conclusion:
+### Conclusion:
 
 Leader Variant: B
 
